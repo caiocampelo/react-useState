@@ -1,0 +1,84 @@
+
+.inside-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inside-container h2 {
+    letter-spacing: -2px;
+    font-size: 30px;
+}
+
+
+.inside-container li{
+    list-style: none;
+    cursor: pointer;
+    padding: 0 15px 0 15px;
+}
+
+
+.inside-container li:hover{
+    text-decoration: underline;
+}
+
+.caixa-interna{
+    display: flex;
+    height: 70%;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    
+}
+
+.enterprise-button{
+    color: white;
+    background-color: rgba(202, 54, 9, 0.944);
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    min-width: fit-content;
+}
+
+.enterprise-button:hover{
+    background-color: black;
+    transition: 0.8s;
+}
+
+.menu-hamburguer{
+    height: 40px;
+    width: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburguer-icon{
+    height: 100%;
+}
+
+a:visited{
+    color: black;
+}
+
+
+@media screen and (max-width: 900px) {
+    .inside-container ul {
+        font-size: 16px;
+        
+    }
+
+    .enterprise-button{
+               
+        padding: 20px 25px;        
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
+
+
