@@ -13,7 +13,9 @@ function Favoritos() {
     setFavorites(favoritesAPI)
   }
 
-  useEffect(fecthData(), [])
+  useEffect( () => {
+    fecthData()
+  }, [])
 
   const filtraJogos = (pesquisa) => {
     const transformtext = pesquisa.toLowerCase()
