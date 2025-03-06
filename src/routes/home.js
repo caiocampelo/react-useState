@@ -20,8 +20,6 @@ function Home() {
   }, [])
 
 
-
-
   const filtraJogos = (pesquisa) => {
     const transformtext = pesquisa.toLowerCase()
     setGamesFiltrados([...games.filter(jogo => jogo.nome.toLowerCase().includes(transformtext) && transformtext.length > 0)])
