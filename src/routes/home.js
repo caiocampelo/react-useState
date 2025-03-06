@@ -32,8 +32,6 @@ function Home() {
       <BannerCentral />
       <Buscador jogoDigitado={pesquisa => filtraJogos(pesquisa)} />
       <ListaJogos games={gamesFiltrados} />
-
-
     </div>
   );
 }

@@ -130,7 +130,7 @@ const Header = () => {
                 <Link to={'/'}><h2 className='logo'>Galaxy Games®</h2></Link>                
                 <div className='caixa-interna'>
                     <ul>
-                        {menuitems.map((item, index) => <li key={index}>{item}</li>)}
+                        {menuitems.map((item, index) => <Link to={`/${item.toLowerCase()}`}> <li key={index}>{item}</li> </Link>)}
                     </ul>
                     <button className='enterprise-button'>Enterprise →</button>  
                 </div>
