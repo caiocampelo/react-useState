@@ -1,9 +1,9 @@
 import './Buscador.css'
 
-const Buscador = ({jogoDigitado}) => {
+const Buscador = ({jogoDigitado, titulo}) => {
     return(
         <div className='buscador-container'>
-            <h2>Search for games</h2>
+            <h2>{titulo}</h2>
             <input className='input-games' onChange={evento => jogoDigitado(evento.target.value)}></input>
         </div>
     )

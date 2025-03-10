@@ -24,7 +24,7 @@ function Favoritos() {
 
   return (
     <div className="App">
-      <Buscador jogoDigitado={pesquisa => filtraJogos(pesquisa)} />
+      <Buscador titulo={'Seus Jogos Favoritos'} jogoDigitado={pesquisa => filtraJogos(pesquisa)} />
       <ListaJogos games={gamesFiltrados} />
     </div>
   );

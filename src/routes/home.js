@@ -28,7 +28,7 @@ function Home() {
   return (
     <div className="App">
       <BannerCentral />
-      <Buscador jogoDigitado={pesquisa => filtraJogos(pesquisa)} />
+      <Buscador titulo={'Procure por Jogos'} jogoDigitado={pesquisa => filtraJogos(pesquisa)} />
       <ListaJogos games={gamesFiltrados} />
     </div>
   );

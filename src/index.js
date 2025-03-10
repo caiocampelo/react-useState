@@ -16,8 +16,8 @@ root.render(
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/favoritos' element={<Favoritos/>}/>
-        <Route path='/categorias' element={<h1>categorias</h1>}/>
-        <Route path='/contact' element={<h1>contact</h1>}/>
+        <Route path='/categorias'/>
+        <Route path='/contact'/>
       </Routes>      
     </BrowserRouter>    
   </React.StrictMode>
